@@ -24,4 +24,10 @@ main {
 }
 #underimagetext {
   color: darkgrey;
+  display: block;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+div {
+  display: inline-block;
 }
