@@ -1,16 +1,17 @@
 html {
-  max-width: 1200px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 body {
+  max-width: 1210px;
   text-align: center;
-  display: block;
+  display: inline-block;
 }
 
-#a {
+.a {
   text-decoration: none;
   list-style-type: none;
   text-transform: uppercase;
@@ -23,7 +24,7 @@ body {
 
 img {
   width: 420px;
-  height: 281px;
+  height: 250px;
   display: block;
 }
 
@@ -34,14 +35,15 @@ nav {
   margin-top: 56px;
 }
 
-#a:hover {
+.a:hover {
   color: rgb(0, 183, 255);
 }
 
 main {
   text-align: center;
 }
-#underimagetext {
+
+.underimagetext {
   color: rgb(180, 173, 158);
   display: inline;
   text-transform: uppercase;
