@@ -1,0 +1,99 @@
+@import "header.css";
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+main {
+  margin-top: 110px;
+  width: 1200px;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.header3 {
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  text-align: center;
+}
+
+.header2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.header2::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background-color: #f38181;
+  display: block;
+  margin: 40px auto 0;
+}
+
+.card_image_title {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #333333;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.card_image_desc {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: #999999;
+}
+
+.card {
+  width: 330px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_image {
+  width: 32px;
+  height: 32px;
+}
+
+.card_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.services {
+  padding-bottom: 90px;
+}
+
+.team_desc {
+  font-family: "Roboto";
+  color: #999999;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 90px;
+}
+
+.team_card_wrapper {
+  display: flex;
+}
+
+.team_name {
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.card_text_wrapper {
+  width: 269px;
+}
