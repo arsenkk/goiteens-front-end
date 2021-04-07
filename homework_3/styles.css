@@ -55,6 +55,7 @@ main {
   text-align: left;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .card_image {
@@ -66,6 +67,7 @@ main {
   display: flex;
   justify-content: space-between;
   margin-top: 90px;
+  flex-wrap: wrap;
 }
 
 .services {
@@ -83,6 +85,7 @@ main {
 
 .team_card_wrapper {
   display: flex;
+  justify-content: space-between;
 }
 
 .team_name {
