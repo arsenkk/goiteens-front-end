@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+html {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+body {
+  max-width: 962px;
+  text-align: center;
+  display: inline-block;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.menu {
+  margin-top: 77px;
+  text-align: center;
+}
+
+.menu_list {
+  list-style-type: none;
+}
+
+.menu_list_text {
+  display: inline-block;
+}
+
+.menu_list_text_link {
+  text-decoration: none;
+  color: #626262;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Playfair Display";
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.menu_list_text_link:hover {
+  color: #03a9f4;
+}
+
+img {
+  width: 420px;
+  height: 280px;
+}
+
+.under_image_text {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+
+.image_title {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  color: #626262;
+}
+
+.image_description {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  color: #626262;
+}
+
+.card {
+  text-align: left;
+  max-width: 420px;
+  display: inline-block;
+  margin-right: 55px;
+  margin-bottom: 130px;
+}
+
+.load_more_button {
+  width: 165px;
+  height: 61px;
+}
+
+.load_more_button {
+  font-size: 20px;
+  font-family: "Playfair Display";
+  background-color: white;
+}
