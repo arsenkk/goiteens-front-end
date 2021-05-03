@@ -1,0 +1,42 @@
+@import "header.css";
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+main {
+  width: 1200px;
+  margin-top: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+}
+
+.header2 {
+  font-family: "Kaushan Script", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #333333;
+  font-weight: normal;
+  margin-bottom: 22px;
+}
+
+.header3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #333333;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+}
+
+.header3::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background-color: #f38181;
+  display: block;
+  margin: 40px auto 0;
+}
+
+.card {
+  width: 330px;
+}
