@@ -46,10 +46,17 @@ main {
   margin-bottom: 100px;
 }
 
+.card::before {
+  content: url("images/alarm.png");
+  width: 32px;
+  height: 32px;
+  margin-right: 30px;
+}
+
 .card_wrapper {
+  padding-top: 65px;
   display: flex;
   justify-content: space-between;
-  margin-top: 90px;
   flex-wrap: wrap;
 }
 
@@ -69,9 +76,6 @@ main {
   font-size: 15px;
 }
 
-.card_text_wrapper::before {
-  content: url("images/alarm.png");
-  width: 32px;
-  height: 32px;
-  display: inline-block;
+.card_text_wrapper {
+  width: 330px;
 }
