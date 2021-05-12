@@ -53,6 +53,26 @@ main {
   margin-right: 30px;
 }
 
+.web_design_image::before {
+  content: url("images/linegraph.png");
+}
+
+.computer_image::before {
+  content: url("images/computer.png");
+}
+
+.book_image::before {
+  content: url("images/book.png");
+}
+
+.home_image::before {
+  content: url("images/home.png");
+}
+
+.image_image::before {
+  content: url("images/image.png");
+}
+
 .card_wrapper {
   padding-top: 65px;
   display: flex;
@@ -74,8 +94,48 @@ main {
   font-family: "Roboto", sans-serif;
   color: #999999;
   font-size: 15px;
+  width: 333px;
 }
 
 .card_text_wrapper {
-  width: 330px;
+  width: 270px;
+}
+
+/* Team Part */
+
+.team_desc {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #999999;
+  text-align: center;
+  width: 940px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.team_card {
+  text-align: center;
+}
+
+.team_card_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team_name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.team_profession {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: #999999;
+  font-size: 15px;
 }
