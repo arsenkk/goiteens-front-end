@@ -148,17 +148,41 @@ main {
 .team_image {
 }
 
-.team_image:hover {
-  box-shadow: 10px 10px #95e1d3;
-}
-
 .team_card_hidden {
   background: linear-gradient(
     180deg,
     rgba(239, 139, 138, 0.8) 0%,
     rgba(229, 207, 130, 0.8) 100%
   );
-  width: 378px;
+  width: 380px;
   height: 472px;
   position: absolute;
+  opacity: 0;
+  transform: translateY(-118%);
+}
+
+.team_card_hidden:hover {
+  opacity: 1;
+  box-shadow: 10px 10px #95e1d3;
+}
+
+.team_card_button {
+  width: 57px;
+  height: 57px;
+  border: none;
+  background-color: #fce38a;
+}
+
+.team_card_button:hover {
+  background-color: #95e1d3;
+  cursor: pointer;
+}
+
+.team_card_button_wrapper {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
