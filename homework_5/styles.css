@@ -1,5 +1,68 @@
 @import "header.css";
 @import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+main {
+  width: 860px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section_title {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #222222;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 128px;
+}
+
+.section_subtitle {
+  color: #777777;
+
+  font-size: 16px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.card {
+  width: 274px;
+  text-align: center;
+}
+
+.card_title {
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #222222;
+  padding-bottom: 20px;
+}
+
+.card_subtitle {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+  color: #777777;
+  font-size: 14px;
+}
+
+.card_wrapper {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image_wrapper {
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  width: 69px;
+  height: 69px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
