@@ -12,3 +12,26 @@
 .contact_us .section_title {
   color: white;
 }
+
+.input_wrapper {
+  width: 456px;
+  height: 211px;
+  align-items: flex-start;
+}
+
+.contact_us_input {
+  width: 456px;
+  height: 52px;
+  border-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  outline: none;
+  border-radius: 4px;
+  margin-bottom: 28px;
+}
+
+.contact_us_input::placeholder {
+  color: #bbbbbb;
+  padding-left: 21px;
+}
