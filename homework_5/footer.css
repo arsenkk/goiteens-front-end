@@ -7,6 +7,11 @@
 .contact_us {
   background-color: #222222;
   padding-top: 55px;
+
+  background-image: url("images/map_image.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  padding-bottom: 115px;
 }
 
 .contact_us .section_title {
@@ -14,9 +19,17 @@
 }
 
 .input_wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 75px;
+}
+
+.short_input_wrapper {
   width: 456px;
   height: 211px;
-  align-items: flex-start;
+  margin-right: 25px;
 }
 
 .contact_us_input {
@@ -29,9 +42,32 @@
   outline: none;
   border-radius: 4px;
   margin-bottom: 28px;
+  display: flex;
+}
+
+#contact_us_form_message {
+  width: 456px;
+  height: 211px;
 }
 
 .contact_us_input::placeholder {
   color: #bbbbbb;
   padding-left: 21px;
+}
+
+.submit_button {
+  background-color: #fed136;
+  border: none;
+  border-radius: 5px;
+  width: 241px;
+  height: 67px;
+  margin: 0 auto;
+  display: flex;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  justify-content: center;
+  cursor: pointer;
 }
