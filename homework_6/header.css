@@ -1,0 +1,14 @@
+@import "reset.css";
+
+header {
+  display: flex;
+}
+
+header .logo {
+  display: none;
+}
+
+.promo {
+  background: url(images/header-bg.jpg) center / cover no-repeat;
+  height: 100vh;
+}
