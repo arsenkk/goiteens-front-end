@@ -71,3 +71,14 @@ div.auth input[type="button"] {
   font-weight: 300;
   color: white;
 }
+
+.button_link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  background-color: #ff4e50;
+  padding: 12px 52px;
+  border-radius: 20px;
+  cursor: pointer;
+}
