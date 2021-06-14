@@ -23,6 +23,7 @@
 .auth {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 
 div.auth input[type="button"] {
@@ -42,4 +43,31 @@ div.auth input[type="button"] {
 .signup_button {
   border: 2px solid white;
   border-radius: 20px;
+}
+
+.header_text {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.urlaubsgluck_logo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+.header_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header_subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
 }
