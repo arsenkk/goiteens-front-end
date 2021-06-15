@@ -2,6 +2,12 @@
 @import "reset.css";
 
 .header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
 }
 
 .auth {
@@ -52,6 +58,11 @@ div.auth input[type="button"] {
 }
 
 .header_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .urlaubsgluck_logo {
