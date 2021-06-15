@@ -2,22 +2,6 @@
 @import "reset.css";
 
 .header {
-  background: url("images/header-bg.jpg") no-repeat center;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  z-index: 1;
-}
-
-.header::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
 }
 
 .auth {
@@ -45,15 +29,29 @@ div.auth input[type="button"] {
   border-radius: 20px;
 }
 
-.header_text {
-  width: 320px;
-  height: 540px;
-  text-align: center;
-  margin: 0 auto;
+.promo_text {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: url("images/header-bg.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.promo_text::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.header_text {
 }
 
 .urlaubsgluck_logo {
