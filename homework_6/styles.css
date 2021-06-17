@@ -18,6 +18,8 @@
 
 .partner_card {
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .image_icon_wrapper {
@@ -27,6 +29,7 @@
 }
 
 .partner_image_icon {
+  display: block;
   position: absolute;
   z-index: 1;
   border: 4px solid white;
@@ -42,8 +45,34 @@
 
 .partner_name {
   margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #333333;
+}
+
+.partner_description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #666666;
 }
 
 .partner_text_wrapper {
   margin-top: 140px;
 }
+
+.partner_card_wrapper {
+}
+
+/*
+@media (min-width: 768px) {
+  .partner_card {
+    width: 50%;
+    padding: 15% 10px;
+  }
+
+  .partner_card_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+*/
