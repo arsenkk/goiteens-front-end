@@ -53,12 +53,16 @@
 
 .partner_description {
   font-family: "Roboto", sans-serif;
+  text-align: center;
   font-weight: 300;
   color: #666666;
+  margin: 0 auto;
+  width: 200px;
 }
 
 .partner_text_wrapper {
   margin-top: 140px;
+  text-align: center;
 }
 
 .partner_card_wrapper {
