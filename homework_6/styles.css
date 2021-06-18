@@ -20,7 +20,7 @@
   text-align: center;
   margin-top: 15px;
   margin-bottom: 30px;
-  width: 200px;
+  width: 201px;
 }
 
 .image_icon_wrapper {
@@ -75,4 +75,40 @@
   border-radius: 20px;
   cursor: pointer;
   margin-bottom: 35px;
+}
+
+/* Media */
+
+@media (min-width: 768px) {
+  .partner_card_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header {
+    justify-content: space-around;
+  }
+
+  .urlaubsgluck_logo {
+    display: none;
+  }
+
+  .header_title {
+    font-size: 52px;
+  }
+
+  .header_subtitle {
+    font-size: 24px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .partner_card {
+    width: 50%;
+  }
 }
